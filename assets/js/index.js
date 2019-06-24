@@ -41,11 +41,18 @@ var animation = bodymovin.loadAnimation({
 // Delivery
 
 var animation = bodymovin.loadAnimation({
-  container: document.getElementById('bike'),
+  container: document.getElementById('bike-female'),
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '../assets/js/bike-data.json'
+  path: '../assets/js/bike-female-data.json'
+})
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('bike-male'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: '../assets/js/bike-male-data.json'
 })
 var animation = bodymovin.loadAnimation({
   container: document.getElementById('car'),
